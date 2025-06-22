@@ -125,7 +125,7 @@ nav ul li a:hover {
 .about {
   background-color: #d6dfdf;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   padding: 100px 40px;
 }
 
@@ -145,7 +145,7 @@ nav ul li a:hover {
 
 .about-card1 {
   width: 600px;
-  min-height: 600px;
+  height: 600px;
   background-color: rgba(17, 17, 17, 0.6);
   border-radius: 10px;
   overflow: hidden;
@@ -184,15 +184,29 @@ nav ul li a:hover {
     color: #0000009c;
 }
 
-.contact-info p {
-  font-size: 0.9rem;
-  line-height: 1.5;
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 14px;
+  color: #000;
 }
 
-.contact-info strong {
-  width: 100px;
-  display: inline-block;
+.contact-info p {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
 }
+
+.contact-info .label {
+  width: 80px; 
+  font-weight: bold;
+}
+
+.contact-info .value {
+  color: #000; 
+}
+
 
 
 .about-card a {
@@ -239,8 +253,82 @@ nav ul li a:hover {
     }
 }
 
+@media screen and (max-width: 768px){
+    .home-content {
+      max-width: 600px;
+    }
+    .home-content h2 {
+      font-size: 35px;
+    }
+    .home-content p {
+      font-size: 15px;
+    }
+}
+
 /*--- About Media screen ---*/
 
-@media screen and (max-width: 1440px) {
-    
+@media screen and (max-width: 1510px) {
+    .home {
+      height: 70vh;
+    }
+    .about-card1 {
+      width: 400px;
+      height: 400px;
+    }
+    .about-card {
+      min-height: 200px;
+      gap: 30px;
+    }
+
+}
+
+@media screen and (max-width: 1310px) {
+   .about-card1 {
+      width: 300px;
+      height: 300px;
+    }
+    .about-card {
+      width: 600px;
+      min-height: 200px;
+      gap: 10px;
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    .about-content {
+      display: flex;
+      flex-direction: column;
+    }
+    .about-card {
+      gap: 20px;
+    }
+    .about-card {
+      text-align: center;
+      align-items: center;
+    }
+    .about {
+      padding: 50px 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .about-card {
+      width: 500px;
+      padding: 0px;
+    }
+    .about-card p {
+      font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .about-card {
+      width: 400px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .about-card {
+      width: 300px;
+    }
 }
