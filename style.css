@@ -17,6 +17,9 @@ body, html {
   height: 100vh;
   overflow: hidden;
   padding-top: 80px;
+  background-image: url(home-back.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .bg-video {
@@ -39,11 +42,11 @@ nav {
   align-items: center;
   padding: 20px 8%;
   z-index: 1000;
-  background-color: #d6dfdf;
+  background-color: #dce0df;
 }
 
 nav h1 {
-  color: #4b384a;
+  color: #b00815;
   font-size: 2rem;
 }
 
@@ -64,7 +67,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #00000059;
+  color: #b00815;
   border-bottom: solid 1px #000;
 }
 
@@ -123,7 +126,7 @@ nav ul li a:hover {
 }
 
 .about {
-  background-color: #d6dfdf;
+  background-color: #dce0df;
   width: 100%;
   min-height: 100vh;
   padding: 100px 40px;
@@ -133,7 +136,7 @@ nav ul li a:hover {
     text-align: center;
     margin-bottom: 80px;
     font-size: 1.3rem;
-    color: #4b384a;
+    color: #b00815;
 }
 
 .about-content {
@@ -176,7 +179,7 @@ nav ul li a:hover {
 }
 
 .about-card h4 {
-    color: #7869e8;
+    color: #b00815;
     font-size: 1.3rem;
 }
 
@@ -215,15 +218,15 @@ nav ul li a:hover {
   border-radius: 5px;
   font-weight: bold;
   color: #fff;
-  background-color: #7869e8;
+  background-color: #b00815;
   width: fit-content;
   text-decoration: none;
-  transition: .4s;
+  transition: .3s;
 }
 
 .about-card a:hover {
     background-color: transparent;
-    color: #7869e8;
+    color: #b00815;
     border-bottom: solid 1px #000;
     border-radius: 0px;
 }
