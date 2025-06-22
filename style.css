@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Merriweather', sans-serif;
+}
+
+body, html {
+  height: 100%;
+}
+
+.home {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  padding-top: 80px;
+}
+
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+nav {
+  position: fixed;    
+  top: 0;             
+  left: 0;            
+  width: 100%;       
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 8%;
+  z-index: 1000;
+  background-color: #d6dfdf;
+}
+
+nav h1 {
+  color: #4b384a;
+  font-size: 2rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav ul li a:hover {
+  color: #00000059;
+  border-bottom: solid 1px #000;
+}
+
+.menu-icon {
+    display: none;
+}
+
+.menu-icon i {
+    color: #000;
+    font-size: 30px;
+}
+
+.home-content {
+  position: relative;
+  z-index: 1;
+  color: white;
+  text-align: center;
+  top: 40%;
+  transform: translateY(-40%);
+  background-color: rgba(17, 17, 17, 0.6    );
+  padding: 30px;
+  max-width: 800px;
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 10px;
+  line-height: 60px;
+}
+
+.home-content h2 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.home-content p {
+  font-size: 20px;
+}
+
+.home-content a {
+    color: #e8dfda;
+    margin: 0.5rem;
+    font-size: 18px;
+    padding: 8px;
+    transition: .3s;
+}
+
+.home-content .twitter:hover{
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+}
+
+.home-content .discord:hover{
+    border-radius: 5px;
+    background-color: #5c68f6;
+    color: #fff;
+}
+
+.about {
+  background-color: #d6dfdf;
+  width: 100%;
+  height: 100vh;
+  padding: 100px 40px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 80px;
+    font-size: 1.3rem;
+    color: #4b384a;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.about-card1 {
+  width: 600px;
+  min-height: 600px;
+  background-color: rgba(17, 17, 17, 0.6);
+  border-radius: 10px;
+  overflow: hidden;
+  background-image: url(about-img.jpg);
+  background-position: center;
+  background-size: cover;
+  transition: .4s;
+}
+
+.about-card1:hover {
+    box-shadow: 0 0 15px 5px #00000010;
+}
+
+.about-card {
+  width: 800px;
+  min-height: 600px;
+  border-radius: 10px;
+  color: #000;
+  padding: 40px 40px;
+  transition: .4s;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.about-card h2 {
+    font-size: 1.8rem;
+}
+
+.about-card h4 {
+    color: #7869e8;
+    font-size: 1.3rem;
+}
+
+.about-card p {
+    color: #0000009c;
+}
+
+.contact-info p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.contact-info strong {
+  width: 100px;
+  display: inline-block;
+}
+
+
+.about-card a {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #7869e8;
+  width: fit-content;
+  text-decoration: none;
+  transition: .4s;
+}
+
+.about-card a:hover {
+    background-color: transparent;
+    color: #7869e8;
+    border-bottom: solid 1px #000;
+    border-radius: 0px;
+}
+
+/*--- Home Media screen ---*/
+
+@media screen and (max-width: 600px) {
+    nav ul {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        text-align: center;
+        background-color: #d6dfdf;
+        gap: 0;
+        overflow: hidden;
+    }
+    nav ul li {
+        padding: 13px;
+    }
+    .menu-icon {
+        display: block;
+    }
+    #menuList {
+        transition: all 0.3s;
+    }
+}
+
+/*--- About Media screen ---*/
+
+@media screen and (max-width: 1440px) {
+    
+}
