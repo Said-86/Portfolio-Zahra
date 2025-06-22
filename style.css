@@ -295,6 +295,9 @@ nav ul li a:hover {
 }
 
 @media screen and (max-width: 1030px) {
+    .about-card1 {
+      box-shadow: 0 0 15px 5px #00000010;
+    }
     .about-content {
       display: flex;
       flex-direction: column;
@@ -303,7 +306,6 @@ nav ul li a:hover {
       gap: 20px;
     }
     .about-card {
-      text-align: center;
       align-items: center;
     }
     .about {
