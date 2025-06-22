@@ -367,6 +367,10 @@ nav ul li a:hover {
   font-size: 1.5rem;
 }
 
+.wk-sv p {
+  color: #0000009c;;
+}
+
 .wk-sv img {
   width: 20px;
 }
@@ -528,6 +532,9 @@ nav ul li a:hover {
 @media screen and (max-width: 550px ) {
   .wk-sv {
     width: 400px;
+  }
+  .wk-sv p {
+    font-size: 0.8rem;
   }
 }
 
