@@ -238,7 +238,7 @@ nav ul li a:hover {
   width: 100%;
   min-height: 100vh;
   background-color: #dce0df;
-  padding: 100px;
+  padding: 50px 20px;
   display: flex;
   flex-direction: column;
   justify-content: center; /* باش كلشي يجي فوسط الشاشة عموديًا */
@@ -247,21 +247,28 @@ nav ul li a:hover {
 
 .title2 {
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
     font-size: 1.3rem;
     color: #b00815;
+    position: relative;
 }
 
 
 .cards {
-  width: 100%;
-  min-height: 50vh;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 30px;
+  max-width: 800px;
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 10px;
+  line-height: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 20px;
 }
 
 .card {
@@ -272,7 +279,6 @@ nav ul li a:hover {
   line-height: 40px;
   white-space: nowrap;
   transition: .3s ease;
-  text-align: center;
 }
 
 .card img {
@@ -314,6 +320,93 @@ nav ul li a:hover {
 .card9:hover {
   color: #ffc107;
 }
+
+
+.services {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  background-color: #dce0df;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 40px;
+}
+
+
+.title3 {
+    text-align: center;
+    margin-bottom: 80px;
+    font-size: 1.3rem;
+    color: #b00815;
+}
+
+.services-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.wk-sv {
+  width: 700px;
+  background-color: #e1e4e3;
+  padding: 50px 50px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  transition: .3s;
+}
+
+.wk-sv:hover {
+  box-shadow: 0 0 15px 5px #00000010;
+}
+
+.wk-sv h1 {
+  color: #b00815;
+  font-size: 1.5rem;
+}
+
+.wk-sv img {
+  width: 20px;
+}
+
+.sv-img {
+  width: 300px;
+  height: 200px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.sv-img img {
+  width: 300px;
+  transition: .3s;
+}
+
+.sv-img img:hover {
+  transform: scale(1.2);
+}
+
+.wk-sv a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 30px;
+  background-color: #b00815;
+  border-radius: 5px;
+  width: fit-content;
+  font-weight: bold;
+  transition: .3s;
+}
+
+.wk-sv a:hover {
+  background-color: transparent;
+  color: #b00815;
+  border-bottom: solid 1px #000;
+  border-radius: 0px;
+}
+
+
+
 
 /*--- Home Media screen ---*/
 
@@ -411,13 +504,45 @@ nav ul li a:hover {
 }
 
 @media screen and (max-width: 500px) {
-    .about-card {
-      width: 400px;
-    }
+  .about-card {
+    width: 90%;
+    max-width: 800px;
+  }
 }
 
 @media screen and (max-width: 400px) {
-    .about-card {
-      width: 300px;
-    }
+  .about-card {
+    width: 90%;
+    max-width: 800px;
+  }
+}
+
+/*--- Services Media screen ---*/
+
+@media screen and (max-width: 768px ) {
+  .wk-sv {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 550px ) {
+  .wk-sv {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 400px ) {
+  .wk-sv {
+    width: 300px;
+    padding: 10px 10px;
+  }
+  .sv-img {
+    width: 200px;
+    height: 120px;
+  }
+
+  .sv-img img {
+    width: 200px;
+  }
+
 }
