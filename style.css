@@ -46,9 +46,11 @@ nav {
   background-color: #dce0df;
 }
 
-nav h1 {
+nav h1 a{
   color: #b00815;
   font-size: 2rem;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 nav ul {
@@ -230,6 +232,87 @@ nav ul li a:hover {
     color: #b00815;
     border-bottom: solid 1px #000;
     border-radius: 0px;
+}
+
+.skills {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #dce0df;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* باش كلشي يجي فوسط الشاشة عموديًا */
+  align-items: center;   
+}
+
+.title2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 1.3rem;
+    color: #b00815;
+}
+
+
+.cards {
+  width: 100%;
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.card {
+  width: 200px;
+  padding: 20px ;
+  background-color: #e1e4e3;
+  border-radius: 8px;
+  line-height: 40px;
+  white-space: nowrap;
+  transition: .3s ease;
+  text-align: center;
+}
+
+.card img {
+  width: 50px;
+}
+
+.card1:hover {
+  color: #00a9ff;
+}
+
+.card2:hover {
+  color: #ff9a00;
+}
+
+.card3:hover {
+  color: #ff3068;
+}
+
+.card4:hover {
+  color: #ff61f6;
+}
+
+.card5:hover {
+  color: #00cf7f;
+}
+
+.card6:hover {
+  color: #5621d5;
+}
+
+.card7:hover {
+  color: #ff4b00;
+}
+
+.card8:hover {
+  color: #2196f3;
+}
+
+.card9:hover {
+  color: #ffc107;
 }
 
 /*--- Home Media screen ---*/
