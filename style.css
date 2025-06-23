@@ -174,7 +174,7 @@ nav ul li a:hover {
   transition: .4s;
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 50px;
 }
 
 .about-card h2 {
@@ -188,32 +188,8 @@ nav ul li a:hover {
 
 .about-card p {
     color: #0000009c;
+    line-height: 25px;
 }
-
-.contact-info {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-  font-size: 14px;
-  color: #000;
-}
-
-.contact-info p {
-  display: flex;
-  justify-content: flex-start;
-  gap: 10px;
-}
-
-.contact-info .label {
-  width: 80px; 
-  font-weight: bold;
-}
-
-.contact-info .value {
-  color: #000; 
-}
-
-
 
 .about-card a {
   display: inline-block;
@@ -241,7 +217,7 @@ nav ul li a:hover {
   padding: 50px 20px;
   display: flex;
   flex-direction: column;
-  justify-content: center; /* باش كلشي يجي فوسط الشاشة عموديًا */
+  justify-content: center; 
   align-items: center;   
 }
 
@@ -368,7 +344,8 @@ nav ul li a:hover {
 }
 
 .wk-sv p {
-  color: #0000009c;;
+  color: #0000009c;
+  line-height: 25px;
 }
 
 .wk-sv img {
@@ -483,7 +460,6 @@ textarea:focus {
 
 .contact-info {
   width: 300px;
-  height: 400px;
   display: flex;
   flex-direction: column;
   justify-content: center;
