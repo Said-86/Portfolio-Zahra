@@ -711,7 +711,7 @@ footer .twitter:hover {
 @media screen and (max-width: 768px) {
   .contact-content {
     flex-direction: column;
-    gap: 50px;
+    gap: 150px;
   }
 }
 
