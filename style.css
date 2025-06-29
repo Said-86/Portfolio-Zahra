@@ -7,7 +7,8 @@
   font-family: 'Merriweather', sans-serif;
 }
 
-body, html {
+body,
+html {
   height: 100%;
   scroll-behavior: smooth;
 }
@@ -34,10 +35,10 @@ body, html {
 }
 
 nav {
-  position: fixed;    
-  top: 0;             
-  left: 0;            
-  width: 100%;       
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -46,7 +47,7 @@ nav {
   background-color: #dce0df;
 }
 
-nav h1 a{
+nav h1 a {
   color: #b00815;
   font-size: 2rem;
   cursor: pointer;
@@ -75,12 +76,12 @@ nav ul li a:hover {
 }
 
 .menu-icon {
-    display: none;
+  display: none;
 }
 
 .menu-icon i {
-    color: #000;
-    font-size: 30px;
+  color: #000;
+  font-size: 30px;
 }
 
 .home-content {
@@ -90,7 +91,7 @@ nav ul li a:hover {
   text-align: center;
   top: 40%;
   transform: translateY(-40%);
-  background-color: rgba(17, 17, 17, 0.6    );
+  background-color: rgba(17, 17, 17, 0.6);
   padding: 30px;
   max-width: 800px;
   width: 90%;
@@ -109,23 +110,23 @@ nav ul li a:hover {
 }
 
 .home-content a {
-    color: #e8dfda;
-    margin: 0.5rem;
-    font-size: 18px;
-    padding: 8px;
-    transition: .3s;
+  color: #e8dfda;
+  margin: 0.5rem;
+  font-size: 18px;
+  padding: 8px;
+  transition: .3s;
 }
 
-.home-content .twitter:hover{
-    border-radius: 5px;
-    background-color: #000;
-    color: #fff;
+.home-content .twitter:hover {
+  border-radius: 5px;
+  background-color: #000;
+  color: #fff;
 }
 
-.home-content .discord:hover{
-    border-radius: 5px;
-    background-color: #5c68f6;
-    color: #fff;
+.home-content .discord:hover {
+  border-radius: 5px;
+  background-color: #5c68f6;
+  color: #fff;
 }
 
 .about {
@@ -136,17 +137,17 @@ nav ul li a:hover {
 }
 
 .title {
-    text-align: center;
-    margin-bottom: 80px;
-    font-size: 1.3rem;
-    color: #b00815;
+  text-align: center;
+  margin-bottom: 80px;
+  font-size: 1.3rem;
+  color: #b00815;
 }
 
 .about-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
 }
 
 .about-card1 {
@@ -162,7 +163,7 @@ nav ul li a:hover {
 }
 
 .about-card1:hover {
-    box-shadow: 0 0 15px 5px #00000010;
+  box-shadow: 0 0 15px 5px #00000010;
 }
 
 .about-card {
@@ -178,17 +179,17 @@ nav ul li a:hover {
 }
 
 .about-card h2 {
-    font-size: 1.8rem;
+  font-size: 1.8rem;
 }
 
 .about-card h4 {
-    color: #b00815;
-    font-size: 1.3rem;
+  color: #b00815;
+  font-size: 1.3rem;
 }
 
 .about-card p {
-    color: #0000009c;
-    line-height: 25px;
+  color: #0000009c;
+  line-height: 25px;
 }
 
 .about-card a {
@@ -204,10 +205,10 @@ nav ul li a:hover {
 }
 
 .about-card a:hover {
-    background-color: transparent;
-    color: #b00815;
-    border-bottom: solid 1px #000;
-    border-radius: 0px;
+  background-color: transparent;
+  color: #b00815;
+  border-bottom: solid 1px #000;
+  border-radius: 0px;
 }
 
 .skills {
@@ -217,16 +218,16 @@ nav ul li a:hover {
   padding: 50px 20px;
   display: flex;
   flex-direction: column;
-  justify-content: center; 
-  align-items: center;   
+  justify-content: center;
+  align-items: center;
 }
 
 .title2 {
-    text-align: center;
-    margin-bottom: 80px;
-    font-size: 1.3rem;
-    color: #b00815;
-    position: relative;
+  text-align: center;
+  margin-bottom: 80px;
+  font-size: 1.3rem;
+  color: #b00815;
+  position: relative;
 }
 
 
@@ -249,7 +250,7 @@ nav ul li a:hover {
 
 .card {
   width: 200px;
-  padding: 20px ;
+  padding: 20px;
   background-color: #e1e4e3;
   border-radius: 8px;
   line-height: 40px;
@@ -311,10 +312,10 @@ nav ul li a:hover {
 
 
 .title3 {
-    text-align: center;
-    margin-bottom: 80px;
-    font-size: 1.3rem;
-    color: #b00815;
+  text-align: center;
+  margin-bottom: 80px;
+  font-size: 1.3rem;
+  color: #b00815;
 }
 
 .services-content {
@@ -422,7 +423,9 @@ form {
   align-items: center;
 }
 
-.name, .email, .message {
+.name,
+.email,
+.message {
   background-color: transparent;
   width: 400px;
   border: none;
@@ -514,7 +517,7 @@ footer .discord {
   background-color: #5c68f6;
   padding: 7px;
   border-radius: 5px;
-  transition: .3s ;
+  transition: .3s;
 }
 
 footer .discord:hover {
@@ -527,7 +530,7 @@ footer .twitter {
   background-color: #000;
   padding: 7px;
   border-radius: 5px;
-  transition: .3s ;
+  transition: .3s;
 }
 
 footer .twitter:hover {
@@ -552,24 +555,29 @@ footer .twitter:hover {
     gap: 0;
     overflow: hidden;
   }
+
   nav ul li {
     padding: 13px;
   }
+
   .menu-icon {
     display: block;
   }
+
   #menuList {
     transition: all 0.3s;
   }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
   .home-content {
     max-width: 600px;
   }
+
   .home-content h2 {
     font-size: 35px;
   }
+
   .home-content p {
     font-size: 15px;
   }
@@ -581,10 +589,12 @@ footer .twitter:hover {
   .home {
     height: 100vh;
   }
+
   .about-card1 {
     width: 400px;
     height: 400px;
   }
+
   .about-card {
     min-height: 200px;
     gap: 30px;
@@ -596,6 +606,7 @@ footer .twitter:hover {
     width: 300px;
     height: 300px;
   }
+
   .about-card {
     width: 600px;
     min-height: 200px;
@@ -607,16 +618,20 @@ footer .twitter:hover {
   .about-card1 {
     box-shadow: 0 0 15px 5px #00000010;
   }
+
   .about-content {
     display: flex;
     flex-direction: column;
   }
+
   .about-card {
     gap: 20px;
   }
+
   .about-card {
     align-items: center;
   }
+
   .about {
     padding: 50px 10px;
   }
@@ -624,21 +639,24 @@ footer .twitter:hover {
 
 @media screen and (max-width: 600px) {
   .about-content {
-    padding: 0px 20px ;
+    padding: 0px 20px;
   }
+
   .about-card {
     width: 500px;
     padding: 15px;
   }
+
   .about-card p {
     font-size: 0.8rem;
   }
 }
 
 @media screen and (max-width: 500px) {
-   .about-content {
-    padding: 0px 5px ;
+  .about-content {
+    padding: 0px 5px;
   }
+
   .about-card {
     width: 90%;
     max-width: 800px;
@@ -654,26 +672,28 @@ footer .twitter:hover {
 
 /*--- Services Media screen ---*/
 
-@media screen and (max-width: 768px ) {
+@media screen and (max-width: 768px) {
   .wk-sv {
     width: 500px;
   }
 }
 
-@media screen and (max-width: 550px ) {
+@media screen and (max-width: 550px) {
   .wk-sv {
     width: 400px;
   }
+
   .wk-sv p {
     font-size: 0.8rem;
   }
 }
 
-@media screen and (max-width: 400px ) {
+@media screen and (max-width: 400px) {
   .wk-sv {
     width: 300px;
     padding: 10px 10px;
   }
+
   .sv-img {
     width: 200px;
     height: 120px;
@@ -699,7 +719,10 @@ footer .twitter:hover {
   .contact-me {
     width: 300px;
   }
-  .name, .email, .message {
+
+  .name,
+  .email,
+  .message {
     width: 300px;
   }
 }
